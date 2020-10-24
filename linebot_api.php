@@ -32,7 +32,7 @@ foreach ($request_json['events'] as $event)
 		   $obj = json_decode($result);
 		   
 		   $reply_message = $result;
-		   $reply_message = 'ติดเชื้อสะสม '. $obj->{'Confirmed'};
+		   $reply_message = 'ตาย'. $obj->{'Deaths'};
 	   }
 			if($text == "@bot สวัสดี !!"){
 					$reply_message = "สวัสดีเจมส์";
