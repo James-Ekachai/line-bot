@@ -1,3 +1,3 @@
 <?php
-    echo "Hello James/line-bot";
+    echo "Hello James";
 ?>
